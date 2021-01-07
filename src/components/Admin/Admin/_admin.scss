@@ -1,0 +1,9 @@
+.sidebar {
+  li {
+    cursor: pointer;
+  }
+  .item__active {
+    color: green;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,15 @@
+.home-container {
+  position: relative;
+  height: 500px;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../../../Assets/logos/header.png);
+}
+
+.events-position {
+  position: absolute;
+  top: 350px;
+}

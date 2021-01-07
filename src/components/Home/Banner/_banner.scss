@@ -1,0 +1,32 @@
+.banner__search {
+  width: 352px;
+  height: 40px;
+  background: #fbfbfb;
+  border-radius: 8px;
+  input {
+    border: none;
+    outline: none !important;
+  }
+}
+
+.input-group-append {
+  margin-left: 100px;
+}
+
+.banner-text {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media only screen and (max-width: 400px) {
+  .banner__search {
+    width: 253px;
+  }
+  .input-group-append {
+    margin-left: 0px;
+  }
+}

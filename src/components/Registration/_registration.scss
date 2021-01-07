@@ -1,0 +1,43 @@
+$border-color: gray;
+$text: black;
+@mixin register($height, $width) {
+  width: $width;
+  height: $height;
+}
+
+.registration {
+  @include register(430px, 480px);
+  border: 1px solid $border-color;
+  padding: 10px;
+}
+
+.registration__input {
+  @include register(32px, 400px);
+  border-style: none;
+  border-bottom: 1px solid $border-color;
+  margin-top: 20px;
+  outline: none;
+}
+
+.registration__title {
+  height: 29px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: $text;
+}
+
+.error_message {
+  margin-right: 230px;
+}
+
+@media only screen and (max-width: 500px) {
+  .registration {
+    @include register(400px, 320px);
+  }
+  .registration__input {
+    @include register(32px, 300px);
+  }
+}

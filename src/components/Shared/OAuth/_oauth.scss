@@ -1,0 +1,34 @@
+$bg-color: #ffffff;
+$border-color: #c7c7c7;
+@mixin auth($height, $width, $radius) {
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+  border: 1px solid $border-color;
+  background: $bg-color;
+}
+
+.auth-container {
+  @include auth(350px, 550px, 4px);
+}
+
+.auth-google {
+  @include auth(50px, 450px, 57px);
+  cursor: pointer;
+}
+
+.account-text {
+  text-decoration: underline;
+  color: #3f90fc;
+}
+
+@media only screen and (max-width: 768px) {
+  .auth-container {
+    height: 200px;
+    width: 350px;
+  }
+  .auth-google {
+    width: 320px;
+  }
+}
+
