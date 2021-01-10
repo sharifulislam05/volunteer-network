@@ -4,7 +4,7 @@
 
 ### Features
 - Two type user admin and client
-- If an client is logged in, he/she can choose any event and easily register as a volunteer
+- If client is logged in, he/she can choose any event and easily register as a volunteer
 - Admin can add new events and see all the registered events
 - Admin can delete any registerd events of any client
 
