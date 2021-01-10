@@ -14,7 +14,7 @@
 - SASS
 - Bootstrap
 - Node.js
-- Express.js backend
+- Express.js
 - MongoDB
-- Firebase Authentication
+- Firebase
 - Heroku
